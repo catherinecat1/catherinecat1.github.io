@@ -67,7 +67,7 @@ function debounce(func, wait, immediate) {
 }
 
 /**
-   * Fullscreen menu
+   * Fullscreen menu*/
 
 $('.fullscreenmenu__module').each(function () {
 	var self = $(this),
@@ -83,7 +83,6 @@ $('.fullscreenmenu__module').each(function () {
 	});
 });
 
-*/
 
 /**
    * Masonry
@@ -280,7 +279,7 @@ $('.onepage-nav').onePageNav({
 
 //*
 // Back to top
-/*
+
 
 $(window).scroll(function () {
 	var wh = $(window).height(),
@@ -303,4 +302,3 @@ $('#back-to-down').on('click', function () {
 	}, 700);
 });
 })();
-*/
