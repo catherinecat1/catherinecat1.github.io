@@ -1704,20 +1704,20 @@ ul {
   list-style: none;
   padding: 0.5em 0;
   margin: 1px 0;
-  margin-left: 12em;
-
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0 0 25%;
 }
 
 ul.nav li {
-  display: inline-block;
+  display: flex;
 }
 .nav li a {
-  display: block;
-  padding: 0px;
   color: #ff594f;
   font-size: 1em;
-  margin: 0 60px;
   font-weight: 400;
+  flex: 1;
+  text-align: center;
 }
 
 /* 9. grid-css
