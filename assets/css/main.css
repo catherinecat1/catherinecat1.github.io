@@ -1711,6 +1711,7 @@ ul {
 
 ul.nav li {
   display: flex;
+  flex: 1;
 }
 .nav li a {
   color: #ff594f;
