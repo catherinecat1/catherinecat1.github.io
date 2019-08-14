@@ -2884,3 +2884,11 @@ ul.nav li {
   color: rgb(100,100,100);
   margin-bottom: 20px;
 }
+
+.interest-item-section {
+  display: flex;
+  flex-direction: row;
+}
+.interest-item {
+    flex:1
+}
