@@ -2888,6 +2888,7 @@ ul.nav li {
 .interest-item-section {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 .interest-item {
     flex:1
